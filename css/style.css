@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html,body {
+    height:100%;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    background: rgb(56,27,110);
+    background: linear-gradient(180deg, rgba(56,27,110,1) 27%, rgba(135,22,108,1) 86%);
+}       
+
+.avatar{
+    width:110px;
+    border-radius:100px;
+    border:3px solid white;
+    box-shadow:0 0 20px white;
+}
+
+h1{
+    font-family: 'Roboto Mono', monospace;
+    font-weight:150;
+    font-size:24px;
+    margin-bottom:6px;
+}
+
+h2{
+    font-size:20px;
+}
+
+.profile {  
+    text-align:center;
+    margin-top:20px;
+}
+
+.social{
+    display:flex ;
+    justify-content: space-evenly;
+    list-style:none;
+    margin:20px 0;
+}
+
+.social img{
+    width:33px;
+}
+
+.links-list{
+    list-style: none;
+
+    
+}
+
+.links-list li{
+    margin:10px 20px;
+    
+    box-shadow:0 0 20px white;
+}
+
+
+.links-list li a{
+display:block;
+background:white;
+padding:12px 20px;
+border-radius: 3px;
+text-decoration:none;
+color:rgb(17,140,208);
+font-weight: bold;
+
+}
+.links-list li a span{
+    color:gray;
+    display:block;
+    margin-top:10px;
+}
